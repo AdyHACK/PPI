@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Subtle circular guide ring -->
+  <circle cx="100" cy="100" r="76" stroke="#E5EAE4" stroke-width="1.5" stroke-dasharray="3 6" />
+
+  <!-- Outer Hexagonal Molecular Lattice -->
+  <path d="M 100 38 L 154 69 L 154 131 L 100 162 L 46 131 L 46 69 Z" 
+        stroke="#789B83" stroke-width="1.8" stroke-linejoin="round" />
+
+  <!-- Internal Cross-Lattice Connections -->
+  <line x1="100" y1="38" x2="100" y2="162" stroke="#E5EAE4" stroke-width="1.2" stroke-dasharray="3 3" />
+  <line x1="46" y1="69" x2="154" y2="131" stroke="#E5EAE4" stroke-width="1.2" />
+  <line x1="46" y1="131" x2="154" y2="69" stroke="#E5EAE4" stroke-width="1.2" />
+
+  <!-- Intersecting Chiral Protein Curves forming an abstract 'X' -->
+  <path d="M 68 68 C 86 86, 114 114, 132 132" stroke="#193C35" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 132 68 C 114 86, 86 114, 68 132" stroke="#4F9991" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Botanical Alpha-Helix Accent Curve -->
+  <path d="M 58 100 Q 79 72, 100 100 T 142 100" stroke="#789B83" stroke-width="2" fill="none" stroke-linecap="round" />
+
+  <!-- Peripheral Molecular Nodes -->
+  <circle cx="100" cy="38" r="4.5" fill="#FFFFFF" stroke="#193C35" stroke-width="2" />
+  <circle cx="154" cy="69" r="4.5" fill="#FFFFFF" stroke="#789B83" stroke-width="2" />
+  <circle cx="154" cy="131" r="4.5" fill="#FFFFFF" stroke="#4F9991" stroke-width="2" />
+  <circle cx="100" cy="162" r="4.5" fill="#FFFFFF" stroke="#193C35" stroke-width="2" />
+  <circle cx="46" cy="131" r="4.5" fill="#FFFFFF" stroke="#789B83" stroke-width="2" />
+  <circle cx="46" cy="69" r="4.5" fill="#FFFFFF" stroke="#4F9991" stroke-width="2" />
+
+  <!-- Central Interaction Hub -->
+  <circle cx="100" cy="100" r="9" fill="#FFFFFF" stroke="#193C35" stroke-width="2" />
+  <circle cx="100" cy="100" r="3.5" fill="#789B83" />
+</svg>
